@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bebebe,
+      -5px -5px 10px #ffffff;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.p{
+  font-size: 1.2em;
+}
+
+button{
+  margin: 0 auto;
+  font-size:15px;
+  font-family:Arial;
+  width:140px;
+  height:50px;
+  border-width:1px;
+  color:#757d6f;
+  border-color:#b2b8ad;
+  font-weight:bold;
+  border-top-left-radius:6px;
+  border-top-right-radius:6px;
+  border-bottom-left-radius:6px;
+  border-bottom-right-radius:6px;
+  box-shadow:inset 0px 0px 14px -3px #f2fadc;
+  text-shadow:inset 0px 1px 0px #ced9bf;
+  background:linear-gradient(#dbe6c4, #9ba892);
+}
+
+.button:hover {
+  background: linear-gradient(#9ba892, #dbe6c4);
+}
+
+.container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  text-align: center;
+  margin: 0rem;
+  padding: 0.5em;
+}
+
+.is-active {
+  color: red;
+  border-top: 5px solid red;
+  border-radius: 205px;
+}
+
+.home,
+.about,
+.articles {
+  border-radius: 205px;
+  background: #e0e0e0;
+  box-shadow: 10px 10px 19px #5a5a5a,
+      -10px -10px 19px #ffffff;
+  padding: 0 0.5em;
+}
+
+.list-container,
+a {
+  font-size: 1.2em;
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1em;
+  margin-right: 1em;
+}
+
+h1{
+  background:grey;
+}
+
+p{
+  font-size: 1.2em;
+}
+
+.nav-bar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #e0e0e0;
+  box-shadow: 5px 5px 10px #bebebe,
+      -5px -5px 10px #ffffff;
+}
+
+.div-container {
+  color: black;
+}
+
+.counter-button-contianer{
+  display: grid;
+  justify-content: center;
+}
+
+.container {
+  position: fixed;
+  top: 4.5em;
+  width: 60%;
+  margin: 0 20%;
+  max-height: 90%;
+  overflow-y: scroll;
+
+}

@@ -1,0 +1,10 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    height: 100%;
+    max-width: 80rem;
+    background-color:beige;
+    margin: 0 auto;
+}

@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    margin: 0rem;
+    padding: 0.5em;
+}
+
+.home,
+.about,
+.articles {
+    border-radius: 205px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 19px #5a5a5a,
+        -10px -10px 19px #ffffff;
+        padding: 0 0.5em;
+}
+
+
+
+.is-active {
+    border-radius: 205px;
+    padding: 0 0.5em;
+    background: rgb(63, 152, 251);
+    background: radial-gradient(circle, rgba(63, 152, 251, 1) 6%, rgba(252, 180, 70, 1) 100%);
+}
+
+.list-container,
+a {
+    font-size: 1.2em;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    border-radius: 0px;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 10px #bebebe,
+        -5px -5px 10px #ffffff;
+}
+
+.container {
+    max-width: 80em;
+    background-color: beige;
+    margin: 0 auto;
+    height: 100vh;
+}

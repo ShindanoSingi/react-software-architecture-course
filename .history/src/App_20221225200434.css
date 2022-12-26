@@ -1,0 +1,19 @@
+h1 {
+    text-align: center;
+    margin: 0rem;
+    padding: 0.5em;
+}
+
+.nav-bar {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 41px 41px 82px #bebebe,
+        -41px -41px 82px #ffffff;
+}
+
+.container {
+    max-width: 80em;
+    background-color: beige;
+    margin: 0 auto;
+    height: 100vh;
+}

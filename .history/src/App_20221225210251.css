@@ -1,0 +1,52 @@
+h1 {
+    text-align: center;
+    margin: 0rem;
+    padding: 0.5em;
+}
+
+.is-active {
+    color: red;
+    border-top: 5px solid red;
+    border-radius: 205px;
+}
+
+.home,
+.about,
+.articles {
+    border-radius: 205px;
+    background: #e0e0e0;
+    box-shadow: 10px 10px 19px #5a5a5a,
+        -10px -10px 19px #ffffff;
+    padding: 0 0.5em;
+}
+
+.list-container,
+a {
+    font-size: 1.2em;
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;
+    margin-right: 1em;
+}
+
+.nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: #e0e0e0;
+    box-shadow: 5px 5px 10px #bebebe,
+        -5px -5px 10px #ffffff;
+}
+
+.container {
+    position: fixed;
+    top: 4.5em;
+    left: 5em;
+    width: 80em;
+    background-color: beige;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 5em;
+}
